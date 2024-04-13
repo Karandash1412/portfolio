@@ -143,7 +143,7 @@ h2 {
   width: 87px;
 }
 
-.skills > .container {
+.skills>.container {
   border: 1px solid rgb(136, 136, 140);
   width: 400px;
   height: 600px;
@@ -193,7 +193,7 @@ h3 {
   transition: transform 0.4s ease-in-out;
 }
 
-.card > img {
+.card>img {
   width: 100%;
   height: 100%;
   transform: scale(1);
@@ -215,7 +215,7 @@ h3 {
   transition: 0.3s ease-in-out;
 }
 
-.btn > a {
+.btn>a {
   color: white;
 }
 
@@ -226,7 +226,7 @@ h3 {
   font-weight: 200;
 }
 
-.card > img:hover {
+.card>img:hover {
   opacity: 0;
 }
 
@@ -284,27 +284,33 @@ h3 {
     align-items: center;
     gap: 0;
   }
+
   ul {
     padding-left: 0;
     flex-direction: column;
     gap: 19px;
     padding-right: 30px;
   }
+
   .about {
     padding-left: 25px;
   }
+
   .examples {
     flex-wrap: wrap;
     gap: 33px;
   }
+
   .recent-work p {
     font-size: 18px;
     padding: 17px;
   }
+
   .about-nav {
     padding: 14px;
   }
 }
+
 @media (max-width: 900px) {
   .top-input {
     flex-direction: column;
@@ -312,79 +318,101 @@ h3 {
     align-items: flex-start;
     margin-left: 17px;
   }
-  .top-input > div,
+
+  .top-input>div,
   .large-input,
   textarea {
     width: 95%;
     padding-left: 17px;
   }
+
   .submit {
     width: 95%;
   }
+
   h1 {
     font-size: 26px;
   }
 }
+
 @media (max-width: 817px) {
   .skills {
     bottom: 50px;
   }
+
   h1 {
     font-size: 23px;
   }
 }
+
 @media (max-width: 400px) {
   nav {
     justify-content: center;
     flex-direction: column;
     margin: 15px 0px;
   }
+
   .icon {
     display: none;
   }
+
   h1 {
     font-size: 27px;
   }
+
   p {
     font-size: 20px;
   }
+
   .skills {
     bottom: 27px;
   }
-  .top-input > div,
+
+  .top-input>div,
   .large-input,
   textarea {
     width: 90%;
     padding-left: 11px;
   }
 }
+
 @media (min-width: 250px) and (max-width: 399px) {
   .devices {
     width: 250px;
     height: 250px;
   }
+
   .avatar {
     width: 150px;
     height: 150px;
   }
+
   .avatar-1 {
     left: 40%;
   }
+
   .description {
     margin-top: -50px;
   }
+
   h2 {
     margin: 0;
     font-size: 19px;
     padding: 0 5px;
   }
+
   .description p {
     width: 80%;
     font-size: 14px;
   }
+
   .about-nav {
     margin-left: 29px;
     padding: 32px;
+  }
+
+  .skills .container {
+    width: 368px;
   }
 }
 
