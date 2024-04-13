@@ -341,6 +341,16 @@ h3 {
         bottom: 50px;
     }
 
+    .devices {
+        width: 398px;
+        height: 398px;
+    }
+
+    .description p {
+        font-size: 14px;
+        width: 70%;
+    }
+
     h1 {
         font-size: 23px;
     }
@@ -351,6 +361,11 @@ h3 {
         justify-content: center;
         flex-direction: column;
         margin: 15px 0px;
+    }
+
+    .devices {
+        width: 373px;
+        height: 373px;
     }
 
     .icon {
@@ -413,6 +428,6 @@ h3 {
     }
 
     .skills .container {
-        width: 368px;
+        width: 301px;
     }
 }
