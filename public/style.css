@@ -241,7 +241,7 @@ h3 {
 
 .avatar-1 {
   position: relative;
-  left: 45%;
+  left: 50%;
   bottom: 50px;
   width: 90px;
   height: 90px;
@@ -333,7 +333,7 @@ h3 {
     font-size: 23px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   nav {
     justify-content: center;
     flex-direction: column;
@@ -356,6 +356,35 @@ h3 {
   textarea {
     width: 90%;
     padding-left: 11px;
+  }
+}
+@media (min-width: 250px) and (max-width: 399px) {
+  .devices {
+    width: 250px;
+    height: 250px;
+  }
+  .avatar {
+    width: 150px;
+    height: 150px;
+  }
+  .avatar-1 {
+    left: 40%;
+  }
+  .description {
+    margin-top: -50px;
+  }
+  h2 {
+    margin: 0;
+    font-size: 19px;
+    padding: 0 5px;
+  }
+  .description p {
+    width: 80%;
+    font-size: 14px;
+  }
+  .about-nav {
+    margin-left: 29px;
+    padding: 32px;
   }
 }
 
